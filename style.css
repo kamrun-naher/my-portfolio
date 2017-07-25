@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+#header-section{
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+.logo{
+    width: 40%;
+    float: left;
+}
+.logo h1{
+    font-size: 20px;
+    color:#5E5E5E;
+    font-family:cursive;
+    margin-left: 20%;
+    
+}
+
+.menu{
+    float: right;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: #22B4FF;
+}
+#slider-section{
+    height: 561px;
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, red , yellow);
+    position: relative;
+    margin-top: 10px;    
+    animation: gradient 20s ease infinite;
+    
+    
+}
+.slider-content{
+    position: absolute;
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+.slider-content h1{
+    font-size:55px;
+    font-family: 'Eczar';
+    
+}
+.slider-content h3{
+    font-size: 30px;
+    line-height: 67px;
+    font-family:sans-serif;
+    font-weight: normal;
+}
+
+.theme-btn{
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.theme-btn:hover{
+    background-color: #22B4FF;
+}
+
+#about-me-section{
+    padding:100px 0;
+    
+    
+}
+.about-me-top{
+    color: #444;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-me-top h2{
+    font-size: 30px;
+    font-family: 'eczar';
+    font-weight: bold;
+}
+.about-me-top h4{
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.about-me-content{
+    padding-bottom: 20px;
+}
+.image{
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+
+.about-me{
+    width: 60%;
+    float: right;
+}
+.about-me-menu{
+    margin-top: 10px;
+    padding: 0;
+}
+
+.about-me-menu ul{
+    border-bottom: 1px solid #f0f0f0;
+}
+.about-me-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px; 10px;
+}
+.about-me-menu ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.about-me-menu ul li a:hover{
+    color:#22B4FF;
+    text-decoration: underline;
+}
+.about-me-para {
+    
+    display: inline;
+    padding-top: 15px;
+}
+.about-me-para p{
+    margin-top: 15px;
+    font-size: 17px;
+    color:#777;
+    font-family: sans-serif; 
+    font-weight: 200;
+    line-height: 25px;
+}
+#service-section{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #F6F6F6;
+}
+.service-top{
+    color: #444;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.service-top h2{
+    font-size: 30px;
+    font-family: 'eczar';
+    font-weight: bold;
+}
+.service-top h4{
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.service-content{
+    width: 100%;
+    text-align: center;
+}
+.service{
+    margin: 0 10px;
+    padding: 20px 5px;
+    width: 22%;
+    display: inline-block;
+    background-color: white;
+    transition: .7s;
+    
+}
+.service i{
+    font-size: 60px;
+    color: #22B4FF;
+    padding: 5px 0;
+}
+.service h3{
+    padding: 18px;
+}
+.service p{
+    font-size: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #444;
+}
+.service:hover{
+    box-shadow: 1px 3px 8px 2px #ccc;
+}
+#skill-section{
+    width: 100%;
+    padding: 100px 0;
+    background-color: white;
+}
+.skill-top{
+    color: #444;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.skill-top h2{
+    font-size: 30px;
+    font-family: 'eczar';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.skill-top h4{
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.skill-content{
+    width: 100%;
+    float: left;
+    
+}
+.skill-left{
+    width: 47%;
+    float: left;
+    margin-left: 20px;
+    
+}
+.skill-right{
+    width: 47%;
+    float: right;
+    margin-left: 20px;
+}
+.skill-item h4{
+    text-align:left;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'eczar' serif;
+    
+}
+.skill{
+    text-transform: uppercase;
+    height: 16px;
+    width:550px;
+    background: #F5F5F5;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px #A9A9A9;
+    
+}
+.overlay-skill{
+    height: 16px;
+    background-color: #22B4FF;
+    border-radius: 5px;
+    width: 95%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+#work-section{
+    padding: 100px 0;
+    background-color: white;
+}
+.work-top{
+    color: #444;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.work-top h2{
+    font-size: 30px;
+    font-family: 'eczar';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.work-top h4{
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.work-content{
+    width: 100%;
+}
+.work{
+    margin: 10px;
+    position: relative;
+    width: 31%;
+    float: left;
+    overflow: hidden;
+    
+}
+.work img{
+        width: 100%;
+        height: 240px;
+    
+}
+.overlay{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    bottom: 5%;
+    margin: 0px auto;
+    background: #fff;
+    opacity: 1;
+    transition: .3s;
+    display: none;
+    text-align: center;
+    
+}
+.work:hover .overlay{
+  display: block;
+}
+.overlay i{
+    position: absolute;
+    color:#22B4FF;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+#client-section{
+    padding: 100px 0;
+    background-color: white;
+}
+.client-top{
+    color: #444;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.client-top h2{
+    font-size: 30px;
+    font-family: 'eczar';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.client-top h4{
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.client-content{
+    width: 45%;
+    display: inline-block;
+    padding: 0 20px;
+
+}
+.client{
+    text-align: center;
+}
+.client img{
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.client h4{
+    font-family: 'Eczar', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+.client b{
+    font-size: 20px;
+    font-family: 'Eczar', sans-serif;
+    
+}
+.client p{
+   font-family: sans-serif;
+    font-size: 18px;
+    color: #525252;
+}
+.client-d p{    
+    margin-bottom: 30px;
+    line-height: 26px;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+#comment-section{
+    padding: 100px 0;
+    background-color: white;
+}
+.comment-top{
+    color: #444;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.comment-top h2{
+    font-size: 30px;
+    font-family: 'eczar', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.comment-top h4{
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.comment-content{
+    width: 100%;
+    display: inline-block;
+    padding: 0 20px;
+
+}
+.comment input{
+    width: 40%;
+    height: 15px;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    border: 1px solid #000;
+}
+.comment textarea{
+    width: 87%;
+    height: auto;
+    margin-left: 50px;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+.action button{
+    background: transparent;
+    border: 1px solid #212121;
+    color: #212121;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-top: 30px;
+    margin-left: 45%;
+}
+.action button:hover{
+    background-color: #22B4FF;
+    color: #fff;
+    border: 0;
+}
+#footer-section{
+    text-align: center;
+}
+.footer{
+    font-size: 30px;
+    text-transform:capitalize;
+    font-family: 'Eczar', sans-serif;
+    color: #22B4FF;
+}
+.footer-icon{
+    margin-bottom: 10px;
+}
+.footer-icon i{
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding:8px 10px;
+    font-size: 23px;
+    margin: 0 6px;
+}
+.footer-icon i:hover{
+    background-color: #22B4FF;
+    color: #fff;
+    border: 0
+}
+.copy-right{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #525252;
+    padding: 10px 0;
+}
